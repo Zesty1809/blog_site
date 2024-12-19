@@ -18,7 +18,7 @@ if(!isset($admin_id)){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>view posts</title>
+    <title>search page</title>
 
     <!-- font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
@@ -31,7 +31,6 @@ if(!isset($admin_id)){
 <!-- header section starts -->
 <?php include '../components/admin_header.php'; ?>
 <!-- header section ends -->
-
 
 
 

@@ -237,7 +237,50 @@ section {
     border: var(--border);
 }
 
+.form-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.form-container form {
+    background-color: var(--white);
+    border-radius: .5rem;
+    border: var(--border);
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    width: 50rem;
+}
+
+.form-container form h3 {
+    font-size: 2rem;
+    color: var(--black);
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.form-container form p {
+    margin: 1rem 0;
+    font-size: 1.8rem;
+    color: var(--light-color);
+}
+
+.form-container form p span {
+    color: var(--main-color);
+}
+
+.form-container form .box {
+    width: 100%;
+    background-color: var(--light-bg);
+    border-radius: .5rem;
+    border: var(--border);
+    padding: 1.4rem;
+    font-size: 1.8rem;
+    color: var(--black);
+    margin: 1rem 0;
+}
 
 
 
