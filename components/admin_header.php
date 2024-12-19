@@ -13,16 +13,18 @@
     </div>
 
     <nav class="navbar">
-        <a href="dashboard.php"><i class="fas fa-home"><span>home</span></i></a>
-        <a href="add_posts.php"><i class="fas fa-pen"><span>add post</span></i></a>
-        <a href="view_posts.php"><i class="fas fa-eye"><span>view post</span></i></a>
-        <a href="admin_accounts.php"><i class="fas fa-user"><span>accounts</span></i></a>
-        <a href="../components/admin_logout.php" onclick="return comfirm('logout from the website?');"><i class="fas fa-right-from-backet"><span style="color:var(--red);">logout</span></i></a>
+        <a href="dashboard.php"><i class="fas fa-home"></i><span>home</span></a>
+        <a href="add_posts.php"><i class="fas fa-pen"></i><span>add post</span></a>
+        <a href="view_posts.php"><i class="fas fa-eye"></i><span>view post</span></a>
+        <a href="admin_accounts.php"><i class="fas fa-user"></i><span>accounts</span></a>
+        <a href="../components/admin_logout.php" onclick="return confirm('logout from the website?');"><i class="fas fa-right-from-bracket"></i><span style="color:var(--red);">logout</span></a>
     </nav>
 
-    <div class="flex-btm">
+    <div class="flex-btn">
         <a href="admin_login.php" class="option-btn">login</a>
         <a href="admin_login.php" class="option-btn">register</a>
     </div>
 
 </header>
+
+<div id="menu-btn" class="fas fa-bars"></div>
